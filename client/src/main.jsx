@@ -1,9 +1,12 @@
 
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+/* import './index.css' */
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
  import Home from "../pages/home.jsx"; 
+ import AboutMe from '../pages/aboutme.jsx';
 
 const route = createBrowserRouter([
   {
@@ -15,10 +18,10 @@ const route = createBrowserRouter([
         index: true,
         element: <Home/>,
       }, 
-      /* {
-        path: 'SignUp',
-        element: <SignUp />,
-      },
+      {
+        path: 'AboutMe',
+        element: <AboutMe />,
+      }, /*
       {
         path: 'Profile',
         element: <Profile />

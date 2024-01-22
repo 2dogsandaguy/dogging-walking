@@ -1,0 +1,47 @@
+.background-image {
+    background-image: url('../public/working-dogs.webp'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  .text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px; 
+    text-align: center;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Set a maximum width for the text */
+    margin: 0 auto; /* Center the text within the container */
+  }
+  .about-me-section {
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
+    color: white;
+    padding: 20px;
+    margin-top: 20px; 
+    border-radius: 10px;
+    word-wrap: normal;
+  }
+  
+  .about-me-text {
+    font-size: 18px;
+    font-weight: bold; 
+  line-height: 1.6;
+  word-wrap: normal;
+  
+    
+  }
+
+  .red {
+    color: red;
+  }
+  .blue{
+    color: rgb(7, 7, 251);
+  }

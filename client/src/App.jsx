@@ -1,16 +1,16 @@
 import { Outlet } from 'react-router-dom';
 
-/* import Header from "../componet/header"
-import Footer from "../componet/footer"  */
+import Header from "../componet/header"
+import Footer from "../componet/footer" 
 
 function App() {
 
 
   return (
     <div>
-      {/* <Header/> */}
+      <Header/>
       <Outlet/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
